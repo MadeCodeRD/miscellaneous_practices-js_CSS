@@ -1,0 +1,38 @@
+.facebook-card{
+  width: 200px;
+  box-shadow: 0px 1px 10px rgba(0, 0,0 , 0.5 );
+font-family: Arial;
+display: inline-block;
+margin-right: 15px;
+  
+}
+
+.facebook-image{
+  width: 200px;
+ 
+}
+
+.user-name{
+  margin: 0;
+  padding: 3px 8px 3px 8px;
+  font-weight: bold;
+  font-size: 17px;
+
+}
+
+.mutual-friend{
+  margin: 0;
+  padding: 3px 8px 3px 8px;
+  font-size: 15px;
+  color: grey;
+}
+
+
+.add-friend-button{
+  margin: 3px 10px 10px 6px;
+  padding: 6px 12px 6px 13px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(24, 119, 242);
+  color: white;
+}

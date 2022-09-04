@@ -1,0 +1,72 @@
+
+ body{
+    height: 3000px;
+    font-family: Arial;
+
+}
+
+
+ .container{
+     display: flex;
+     
+ }
+
+ .left-img-sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(56, 56, 56);
+    width: 100px;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding-top: 25px;
+    
+
+ }
+
+ .right-info{
+     position: fixed;
+     left: 100px;
+     top: 0;
+     bottom: 0;
+     background-color: rgb(97, 96, 96);
+     width: 250px;
+     padding-top: 25px;
+     padding-left: 15px;
+ }
+
+ .info-container{
+     display: flex;
+     justify-content: space-between;
+     width: 200px;
+     align-items: center;
+     margin-bottom: 6px;
+     
+ }
+
+
+.info-text{
+    color: white;
+    font-weight: bold;
+}
+
+.plus-sign{
+   font-size: 30px;
+   color: rgb(175, 175, 175);
+}
+
+.user-photo{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+.new-videos, .updates, .faq{
+    color: rgb(175, 175, 175);
+    margin-bottom: 10px;
+    padding-left: 7px;
+}

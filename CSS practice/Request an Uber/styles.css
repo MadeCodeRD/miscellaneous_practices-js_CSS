@@ -1,0 +1,76 @@
+.Email, .Fist-name, .Last-name, .signup-button{
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 6px 10px 6px 6px;
+  font-family: Arial;
+}
+
+.Fist-name, .Last-name{
+  width: 100px;
+}
+.Email{
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 225px;
+}
+.signup-button{
+  width: 244px;
+  background-color:  rgb(53, 124, 216);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding-top:7px;
+  padding-bottom:7px;
+}
+
+
+.request-ride, .pickup-location, .destination
+, .request-now-button, .schedule-button
+{
+  font-family: Arial;
+
+}
+
+.request-ride{
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+
+.pickup-location, .destination{
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(214, 214, 214);
+  border: none;
+  padding: 10px 45px 10px 12px;
+  width: 300px;
+  color: gray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10px;
+  
+}
+
+.request-now-button{
+  margin-top: 13px;
+  background-color: black;
+  color: white;
+  width: 100px;
+ padding: 7px 3px 7px 3px;
+margin-right: 10px;
+border: none;
+font-size: 10px;
+}
+
+
+
+.schedule-button{
+  background-color: rgb(214, 214, 214);
+  color: black;
+  border:none;
+  width: 100px;
+  font-size: 10px;
+  padding: 7px 3px 7px 3px;
+}
